@@ -31,7 +31,7 @@ def quicksort(arr: list) -> list:
                     i += 1
                     j -= 1
 
-                if i >= j:
+                if i > j:
                     repeat = False
 
             metric["swaps"] += 1
