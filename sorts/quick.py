@@ -16,6 +16,7 @@ def quicksort(arr: list) -> list:
 
             repeat: bool = True
             while repeat:
+                metric["compares"] += 1
 
                 while i <= j and arr[i] <= arr[p]:
                     metric["compares"] += 1
