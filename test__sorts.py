@@ -1,6 +1,6 @@
 import math, random
 
-from sorts import bubblesort, heapsort, insertionsort, quicksort
+from sorts import bubblesort, heapsort, insertionsort, quicksort, mergesort
 
 
 for n in (4, 10, 100, 500):
@@ -29,6 +29,7 @@ for n in (4, 10, 100, 500):
             heapsort,
             insertionsort,
             quicksort,
+            mergesort,
         ]:
 
             result, metric = sort(t)
