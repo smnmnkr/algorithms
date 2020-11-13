@@ -1,4 +1,14 @@
-def merge(arr, l: int, m: int, r: int, metric: dict) -> None:
+#
+#
+#  -------- merge -----------
+#
+def merge(
+    arr: list,
+    l: int,
+    m: int,
+    r: int,
+    metric: dict,
+) -> None:
 
     l_cp: list = arr[l:m]
     r_cp: list = arr[m : r + 1]
@@ -34,7 +44,14 @@ def merge(arr, l: int, m: int, r: int, metric: dict) -> None:
         sort_idx += 1
 
 
+#
+#
+#  -------- sort_default -----------
+#
 def sort_default(arr: list, metric: dict) -> None:
+
+    #  -------- sort -----------
+    #
     def sort(l: int = 0, r: int = len(arr) - 1) -> None:
 
         if l < r:
@@ -47,6 +64,10 @@ def sort_default(arr: list, metric: dict) -> None:
     sort()
 
 
+#
+#
+#  -------- sort_straight -----------
+#
 def sort_straight(arr: list, metric: dict) -> None:
 
     l: int = 0
@@ -69,6 +90,10 @@ def sort_straight(arr: list, metric: dict) -> None:
         s = s * 2
 
 
+#
+#
+#  -------- sort_natural -----------
+#
 def sort_natural(arr: list, metric: dict) -> None:
 
     l: int = 0
@@ -99,6 +124,10 @@ def sort_natural(arr: list, metric: dict) -> None:
             ll = rr + 1
 
 
+#
+#
+#  -------- mergesort -----------
+#
 def mergesort(arr: list, type: str = "default") -> list:
     arr = arr.copy()
 

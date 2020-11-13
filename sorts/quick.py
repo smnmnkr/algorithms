@@ -1,3 +1,7 @@
+#
+#
+#  -------- quicksort -----------
+#
 def quicksort(arr: list) -> list:
     arr = arr.copy()
 
@@ -7,6 +11,8 @@ def quicksort(arr: list) -> list:
         "swaps": 0,
     }
 
+    #  -------- sort -----------
+    #
     def sort(l: int = 0, r: int = len(arr) - 1) -> None:
 
         if l < r:
