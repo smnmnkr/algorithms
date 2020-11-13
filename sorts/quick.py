@@ -7,7 +7,7 @@ def quicksort(arr: list) -> list:
         "swaps": 0,
     }
 
-    def sort(l: int, r: int) -> None:
+    def sort(l: int = 0, r: int = len(arr) - 1) -> None:
 
         if l < r:
             p: int = r
@@ -40,6 +40,6 @@ def quicksort(arr: list) -> list:
             sort(l, i - 1)
             sort(i + 1, r)
 
-    sort(0, len(arr) - 1)
+    sort()
     metric["total"] = metric["compares"] + metric["swaps"]
     return arr, metric
