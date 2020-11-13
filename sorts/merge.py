@@ -84,7 +84,7 @@ def sort_straight(arr: list, metric: dict) -> None:
             if rr > r:
                 rr = r
 
-            merge(arr, ll, mm, rr)
+            merge(arr, ll, mm, rr, metric)
             ll = rr + 1
 
         s = s * 2
@@ -128,7 +128,7 @@ def sort_natural(arr: list, metric: dict) -> None:
 #
 #  -------- mergesort -----------
 #
-def mergesort(arr: list, type: str = "default") -> list:
+def mergesort(arr: list, type: str = "natural") -> list:
     arr = arr.copy()
 
     metric: dict = {
