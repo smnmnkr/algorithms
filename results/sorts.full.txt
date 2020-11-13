@@ -6,7 +6,7 @@
 [-- @heapsort       success: 1, total:      10, compares:       4, swaps:       6
 [-- @insertionsort  success: 1, total:       6, compares:       3, swaps:       3
 [-- @quicksort      success: 1, total:       8, compares:       5, swaps:       3
-[-- @mergesort      success: 1, total:      13, compares:       5, swaps:       8
+[-- @mergesort      success: 1, total:       7, compares:       3, swaps:       4
 [--
 
 [--
@@ -17,7 +17,7 @@
 [-- @heapsort       success: 1, total:      10, compares:       4, swaps:       6
 [-- @insertionsort  success: 1, total:       6, compares:       3, swaps:       3
 [-- @quicksort      success: 1, total:      12, compares:       9, swaps:       3
-[-- @mergesort      success: 1, total:      13, compares:       5, swaps:       8
+[-- @mergesort      success: 1, total:       5, compares:       1, swaps:       4
 [--
 
 [--
@@ -28,7 +28,7 @@
 [-- @heapsort       success: 1, total:      14, compares:       5, swaps:       9
 [-- @insertionsort  success: 1, total:       3, compares:       3, swaps:       0
 [-- @quicksort      success: 1, total:      12, compares:       9, swaps:       3
-[-- @mergesort      success: 1, total:      12, compares:       4, swaps:       8
+[-- @mergesort      success: 1, total:       0, compares:       0, swaps:       0
 [--
 
 [--
@@ -39,18 +39,18 @@
 [-- @heapsort       success: 1, total:       8, compares:       4, swaps:       4
 [-- @insertionsort  success: 1, total:       3, compares:       3, swaps:       0
 [-- @quicksort      success: 1, total:      12, compares:       9, swaps:       3
-[-- @mergesort      success: 1, total:      12, compares:       4, swaps:       8
+[-- @mergesort      success: 1, total:       0, compares:       0, swaps:       0
 [--
 
 [--
-[-- input: [4, 1, '...', 2, 2]
+[-- input: [2, 2, '...', 1, 3]
 [-- O(n) = 04, O(n * log2(n)) = 08, O(n^2) = 16
 [--
-[-- @bubblesort     success: 1, total:       9, compares:       6, swaps:       3
-[-- @heapsort       success: 1, total:      10, compares:       4, swaps:       6
-[-- @insertionsort  success: 1, total:       6, compares:       3, swaps:       3
-[-- @quicksort      success: 1, total:       7, compares:       4, swaps:       3
-[-- @mergesort      success: 1, total:      13, compares:       5, swaps:       8
+[-- @bubblesort     success: 1, total:      11, compares:       9, swaps:       2
+[-- @heapsort       success: 1, total:      12, compares:       5, swaps:       7
+[-- @insertionsort  success: 1, total:       5, compares:       3, swaps:       2
+[-- @quicksort      success: 1, total:      12, compares:       9, swaps:       3
+[-- @mergesort      success: 1, total:       7, compares:       3, swaps:       4
 [--
 
 [--
@@ -61,7 +61,7 @@
 [-- @heapsort       success: 1, total:      49, compares:      21, swaps:      28
 [-- @insertionsort  success: 1, total:      18, compares:       9, swaps:       9
 [-- @quicksort      success: 1, total:      35, compares:      26, swaps:       9
-[-- @mergesort      success: 1, total:      58, compares:      24, swaps:      34
+[-- @mergesort      success: 1, total:      19, compares:       9, swaps:      10
 [--
 
 [--
@@ -72,7 +72,7 @@
 [-- @heapsort       success: 1, total:      51, compares:      21, swaps:      30
 [-- @insertionsort  success: 1, total:      18, compares:       9, swaps:       9
 [-- @quicksort      success: 1, total:      63, compares:      54, swaps:       9
-[-- @mergesort      success: 1, total:      55, compares:      21, swaps:      34
+[-- @mergesort      success: 1, total:      11, compares:       1, swaps:      10
 [--
 
 [--
@@ -83,7 +83,7 @@
 [-- @heapsort       success: 1, total:      54, compares:      23, swaps:      31
 [-- @insertionsort  success: 1, total:       9, compares:       9, swaps:       0
 [-- @quicksort      success: 1, total:      63, compares:      54, swaps:       9
-[-- @mergesort      success: 1, total:      53, compares:      19, swaps:      34
+[-- @mergesort      success: 1, total:       0, compares:       0, swaps:       0
 [--
 
 [--
@@ -94,18 +94,18 @@
 [-- @heapsort       success: 1, total:      23, compares:      13, swaps:      10
 [-- @insertionsort  success: 1, total:       9, compares:       9, swaps:       0
 [-- @quicksort      success: 1, total:      63, compares:      54, swaps:       9
-[-- @mergesort      success: 1, total:      53, compares:      19, swaps:      34
+[-- @mergesort      success: 1, total:       0, compares:       0, swaps:       0
 [--
 
 [--
-[-- input: [1, 1, '...', 6, 9]
+[-- input: [4, 2, '...', 5, 1]
 [-- O(n) = 10, O(n * log2(n)) = 34, O(n^2) = 100
 [--
-[-- @bubblesort     success: 1, total:      40, compares:      36, swaps:       4
-[-- @heapsort       success: 1, total:      50, compares:      23, swaps:      27
-[-- @insertionsort  success: 1, total:      13, compares:       9, swaps:       4
-[-- @quicksort      success: 1, total:      40, compares:      34, swaps:       6
-[-- @mergesort      success: 1, total:      55, compares:      21, swaps:      34
+[-- @bubblesort     success: 1, total:     113, compares:      90, swaps:      23
+[-- @heapsort       success: 1, total:      49, compares:      22, swaps:      27
+[-- @insertionsort  success: 1, total:      32, compares:       9, swaps:      23
+[-- @quicksort      success: 1, total:      43, compares:      35, swaps:       8
+[-- @mergesort      success: 1, total:      46, compares:      18, swaps:      28
 [--
 
 [--
@@ -116,7 +116,7 @@
 [-- @heapsort       success: 1, total:    1164, compares:     536, swaps:     628
 [-- @insertionsort  success: 1, total:     198, compares:      99, swaps:      99
 [-- @quicksort      success: 1, total:    2600, compares:    2501, swaps:      99
-[-- @mergesort      success: 1, total:    1120, compares:     448, swaps:     672
+[-- @mergesort      success: 1, total:     199, compares:      99, swaps:     100
 [--
 
 [--
@@ -127,7 +127,7 @@
 [-- @heapsort       success: 1, total:    1185, compares:     545, swaps:     640
 [-- @insertionsort  success: 1, total:     198, compares:      99, swaps:      99
 [-- @quicksort      success: 1, total:    5148, compares:    5049, swaps:      99
-[-- @mergesort      success: 1, total:    1032, compares:     360, swaps:     672
+[-- @mergesort      success: 1, total:     101, compares:       1, swaps:     100
 [--
 
 [--
@@ -138,7 +138,7 @@
 [-- @heapsort       success: 1, total:    1188, compares:     547, swaps:     641
 [-- @insertionsort  success: 1, total:      99, compares:      99, swaps:       0
 [-- @quicksort      success: 1, total:    5148, compares:    5049, swaps:      99
-[-- @mergesort      success: 1, total:    1028, compares:     356, swaps:     672
+[-- @mergesort      success: 1, total:       0, compares:       0, swaps:       0
 [--
 
 [--
@@ -149,18 +149,18 @@
 [-- @heapsort       success: 1, total:     248, compares:     148, swaps:     100
 [-- @insertionsort  success: 1, total:      99, compares:      99, swaps:       0
 [-- @quicksort      success: 1, total:    5148, compares:    5049, swaps:      99
-[-- @mergesort      success: 1, total:    1028, compares:     356, swaps:     672
+[-- @mergesort      success: 1, total:       0, compares:       0, swaps:       0
 [--
 
 [--
-[-- input: [78, 46, '...', 35, 34]
+[-- input: [64, 80, '...', 62, 20]
 [-- O(n) = 100, O(n * log2(n)) = 665, O(n^2) = 10000
 [--
-[-- @bubblesort     success: 1, total:   10469, compares:    7920, swaps:    2549
-[-- @heapsort       success: 1, total:    1101, compares:     519, swaps:     582
-[-- @insertionsort  success: 1, total:    2648, compares:      99, swaps:    2549
-[-- @quicksort      success: 1, total:     819, compares:     660, swaps:     159
-[-- @mergesort      success: 1, total:    1208, compares:     536, swaps:     672
+[-- @bubblesort     success: 1, total:   10722, compares:    8316, swaps:    2406
+[-- @heapsort       success: 1, total:    1094, compares:     517, swaps:     577
+[-- @insertionsort  success: 1, total:    2505, compares:      99, swaps:    2406
+[-- @quicksort      success: 1, total:     776, compares:     619, swaps:     157
+[-- @mergesort      success: 1, total:    1072, compares:     506, swaps:     566
 [--
 
 [--
@@ -171,7 +171,7 @@
 [-- @heapsort       success: 1, total:    8202, compares:    3860, swaps:    4342
 [-- @insertionsort  success: 1, total:     998, compares:     499, swaps:     499
 [-- @quicksort      success: 1, total:   63000, compares:   62501, swaps:     499
-[-- @mergesort      success: 1, total:    7250, compares:    2762, swaps:    4488
+[-- @mergesort      success: 1, total:     999, compares:     499, swaps:     500
 [--
 
 [--
@@ -182,7 +182,7 @@
 [-- @heapsort       success: 1, total:    8250, compares:    3904, swaps:    4346
 [-- @insertionsort  success: 1, total:     998, compares:     499, swaps:     499
 [-- @quicksort      success: 1, total:  125748, compares:  125249, swaps:     499
-[-- @mergesort      success: 1, total:    6766, compares:    2278, swaps:    4488
+[-- @mergesort      success: 1, total:     501, compares:       1, swaps:     500
 [--
 
 [--
@@ -193,7 +193,7 @@
 [-- @heapsort       success: 1, total:    8251, compares:    3896, swaps:    4355
 [-- @insertionsort  success: 1, total:     499, compares:     499, swaps:       0
 [-- @quicksort      success: 1, total:  125748, compares:  125249, swaps:     499
-[-- @mergesort      success: 1, total:    6760, compares:    2272, swaps:    4488
+[-- @mergesort      success: 1, total:       0, compares:       0, swaps:       0
 [--
 
 [--
@@ -204,17 +204,17 @@
 [-- @heapsort       success: 1, total:    1248, compares:     748, swaps:     500
 [-- @insertionsort  success: 1, total:     499, compares:     499, swaps:       0
 [-- @quicksort      success: 1, total:  125748, compares:  125249, swaps:     499
-[-- @mergesort      success: 1, total:    6760, compares:    2272, swaps:    4488
+[-- @mergesort      success: 1, total:       0, compares:       0, swaps:       0
 [--
 
 [--
-[-- input: [231, 104, '...', 260, 205]
+[-- input: [170, 406, '...', 341, 11]
 [-- O(n) = 500, O(n * log2(n)) = 4483, O(n^2) = 250000
 [--
-[-- @bubblesort     success: 1, total:  293287, compares:  231037, swaps:   62250
-[-- @heapsort       success: 1, total:    7816, compares:    3738, swaps:    4078
-[-- @insertionsort  success: 1, total:   62749, compares:     499, swaps:   62250
-[-- @quicksort      success: 1, total:    5290, compares:    4225, swaps:    1065
-[-- @mergesort      success: 1, total:    8351, compares:    3863, swaps:    4488
+[-- @bubblesort     success: 1, total:  308371, compares:  244510, swaps:   63861
+[-- @heapsort       success: 1, total:    7787, compares:    3728, swaps:    4059
+[-- @insertionsort  success: 1, total:   64360, compares:     499, swaps:   63861
+[-- @quicksort      success: 1, total:    5971, compares:    4935, swaps:    1036
+[-- @mergesort      success: 1, total:    7566, compares:    3593, swaps:    3973
 [--
 
