@@ -77,7 +77,7 @@ def sort_straight(arr: list, metric: dict) -> None:
     while s < r - l + 1:
         ll: int = l
 
-        while ll + s < r:
+        while ll + s < r + 1:
             mm: int = ll + s
             rr: int = mm + s - 1
 
